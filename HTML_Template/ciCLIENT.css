@@ -136,6 +136,7 @@ p {
     height: 100px;
     position: relative;
     margin-bottom: 50px;
+    border-bottom: 25px solid #e4dede;
 }
 
 #epNav {
@@ -148,7 +149,7 @@ p {
 
 #epNav a:link {
     color: #424143;
-    font: normal normal 400 16px/26px Helvetica
+    font: normal normal 400 16px/26px Helvetica;
 }
 
 #epNav a {
