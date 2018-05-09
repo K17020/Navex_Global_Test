@@ -1,5 +1,5 @@
 body {
-    font: normal normal 400 16px/26px Helvetica;
+    font: normal normal 400 16px/21px Helvetica;
     margin: 0px;
 }
 
@@ -34,21 +34,22 @@ a.logo {
 }
 
 h1 {
-    font: normal normal 700 35px/38px crimson-text;
+    font: normal normal 700 35px/38px crimson text;
     margin: 0.67em 0;
     padding: 0;
     text-align: center;
     border-bottom: 1px solid #9A9A9A;
+    padding: 30px;
 }
 
 h2 {
-    font: normal normal 700 1.5em/1.6em Helvetica;
+    font: normal normal bold 700 20px/26px Helvetica;
     margin: 0.83em 0;
     padding: 0;
 }
 
 h3 {
-    font: normal normal 700 1.17em/1.27em Helvetica;
+    font: normal normal bold 700 16/26px Helvetica;
     margin: 1em 0;
     padding: 0;
 }
@@ -76,6 +77,12 @@ p {
     position: relative;
     text-align: center;
     color: #9A9A9A;
+    border-bottom: 1px solid #9A9A9A;
+    padding: 5px;
+}
+
+.logo {
+    margin: 20px;
 }
 
 #epColumn1 {
@@ -128,6 +135,7 @@ p {
 #epHeader {
     height: 100px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 #epNav {
@@ -136,6 +144,11 @@ p {
     position: relative;
     right: 0px;
     top: 25px;
+}
+
+#epNav a:link {
+    color: #424143;
+    font: normal normal 400 16px/26px Helvetica
 }
 
 #epNav a {
@@ -253,7 +266,7 @@ button {
     background-color: #9A9A9A;
     color: #ffffff;
     position: relative;
-    font-size: 15px;
+    font: normal normal 400 15px/30px Helvetica;
     font-weight: bold;
     border-radius: 8px;
     border: 1px solid #ffffff;
