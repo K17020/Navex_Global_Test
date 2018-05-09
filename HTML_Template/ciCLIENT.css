@@ -34,7 +34,7 @@ a.logo {
 }
 
 h1 {
-    font: normal normal 700 35px/38px crimson text;
+    font: normal normal 35px/38px crimson text;
     margin: 0.67em 0;
     padding: 0;
     text-align: center;
@@ -43,13 +43,13 @@ h1 {
 }
 
 h2 {
-    font: normal normal bold 700 20px/26px Helvetica;
+    font: normal normal bold 20px/26px Helvetica;
     margin: 0.83em 0;
     padding: 0;
 }
 
 h3 {
-    font: normal normal bold 700 16/26px Helvetica;
+    font: normal normal bold 16/26px Helvetica;
     margin: 1em 0;
     padding: 0;
 }
@@ -162,6 +162,9 @@ p {
 #epNav a:hover {
     color: #b2bb35;
 }
+
+
+/*Need to adjust window size*/
 
 #epWrapper {
     float: left;
