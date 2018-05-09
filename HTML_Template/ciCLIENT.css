@@ -1,19 +1,27 @@
 body {
-    font: normal normal 400 12px/15px sans-serif;
-    margin: 0;
+    font: normal normal 400 16px/26px Helvetica;
+    margin: 0px;
 }
 
 a {
-    color: #0000ff;
+    color: #b2bb35;
     outline: none;
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+
+/* what link look after being clicked*/
 
 a:link {
     color: #b2bb35;
 }
 
-a:hover {}
+
+/* style when hovering cursor over text*/
+
+a:hover {
+    text-decoration: underline;
+}
 
 a.logo {
     background: url(logo1.png) no-repeat left top;
@@ -26,19 +34,21 @@ a.logo {
 }
 
 h1 {
-    font: normal normal 700 2em/2.1em sans-serif;
+    font: normal normal 700 35px/38px crimson-text;
     margin: 0.67em 0;
     padding: 0;
+    text-align: center;
+    border-bottom: 1px solid #9A9A9A;
 }
 
 h2 {
-    font: normal normal 700 1.5em/1.6em sans-serif;
+    font: normal normal 700 1.5em/1.6em Helvetica;
     margin: 0.83em 0;
     padding: 0;
 }
 
 h3 {
-    font: normal normal 700 1.17em/1.27em sans-serif;
+    font: normal normal 700 1.17em/1.27em Helvetica;
     margin: 1em 0;
     padding: 0;
 }
@@ -59,8 +69,13 @@ p {
     padding: 0;
 }
 
+
+/*style for the attention area*/
+
 #epAttention {
     position: relative;
+    text-align: center;
+    color: #9A9A9A;
 }
 
 #epColumn1 {
@@ -68,7 +83,7 @@ p {
 }
 
 
-/*Style for the report area*/
+/*Report button style*/
 
 #epColumn2 {
     float: right;
@@ -76,7 +91,8 @@ p {
     background-color: #b2bb35;
     color: #ffffff;
     border-radius: 8px;
-    padding: 10px
+    padding: 10px;
+    margin-bottom: 1.5em;
 }
 
 #epContent {
@@ -87,6 +103,9 @@ p {
 
 #epEmergency {
     clear: both;
+    border-top: 1px solid #9A9A9A;
+    border-bottom: 1px solid #9A9A9A;
+    padding: 10px;
 }
 
 #epFooter {
@@ -95,6 +114,7 @@ p {
 
 #epFooter .line1 {
     float: left;
+    color: #9A9A9A;
 }
 
 #epFooter .line2 {
@@ -122,10 +142,11 @@ p {
     display: block;
     float: left;
     padding: 0 20px;
+    color: #000000;
 }
 
 #epNav a:hover {
-    color: #b2bb35
+    color: #b2bb35;
 }
 
 #epWrapper {
@@ -226,17 +247,19 @@ p {
 }
 
 
-/* button sytle*/
+/* button style*/
 
 button {
     background-color: #9A9A9A;
     color: #ffffff;
+    position: relative;
     font-size: 15px;
     font-weight: bold;
     border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 0.2s ease;
-    padding: 10px;
+    border: 1px solid #ffffff;
+    transition: background-color 0.2s ease 0s;
+    padding: 10px 50px 10px 50px;
+    margin-left: 1.5em;
 }
 
 button:hover {
