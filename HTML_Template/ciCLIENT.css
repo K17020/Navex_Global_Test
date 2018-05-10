@@ -27,9 +27,8 @@ a.logo {
     background: url(logo1.png) no-repeat left top;
     display: block;
     height: 50px;
-    left: 0px;
+    left: 17%;
     position: absolute;
-    top: 25px;
     width: 204px;
 }
 
@@ -143,7 +142,7 @@ p {
     float: right;
     font: normal normal 400 12px/25px sans-serif;
     position: relative;
-    right: 0px;
+    right: 18%;
     top: 25px;
 }
 
@@ -164,7 +163,7 @@ p {
 }
 
 
-/*Need to adjust window size*/
+/*Need adjust*/
 
 #epWrapper {
     float: left;
